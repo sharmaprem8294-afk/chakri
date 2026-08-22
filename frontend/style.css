@@ -523,8 +523,15 @@ body{
 }
 
 /* ---------- footer ---------- */
-.footer{
-  position:relative; z-index:1; text-align:center;
-  padding:clamp(8px,1.6vh,14px) 24px; font-size:0.7rem; color:var(--paper-dim);
-  flex:0 0 auto;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    padding: clamp(8px, 1.6vh, 14px) 24px;
+    font-size: 0.7rem;
+    color: var(--paper-dim);
+    box-sizing: border-box;
 }
