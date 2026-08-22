@@ -272,7 +272,7 @@ let isListening = false;
 // ---------- Django API ----------
 
 // Local Django backend
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://chakri-backend-oynw.onrender.com';
 
 const profilesList = document.getElementById('profilesList');
 const talentSearch = document.getElementById('talentSearch');
